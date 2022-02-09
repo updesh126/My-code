@@ -2,7 +2,7 @@
 #include<conio.h>
 int main()
 {
-    int i,j,n,a=1;
+    int i,j,n;
     printf("enter the row or coloumn");
     scanf("%d",&n);
     for ( i = 0; i <= n; i++)
@@ -10,7 +10,7 @@ int main()
         for ( j = 0; j < i; j++)
         {
 
-           printf("%d",a++);
+           printf("%c",(65+j));
 
 
         }
@@ -20,4 +20,3 @@ int main()
     return 0;
 
 }
-
